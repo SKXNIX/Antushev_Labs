@@ -158,7 +158,7 @@ class Battery:
         if self.charge == 0:
             return True
 
-    def show_info(self) -> str:
+    def show_info(self) -> None:
         """
         Функция, которая выводит информацию об аккумуляторе
         :print: Информация об аккумуляторе
